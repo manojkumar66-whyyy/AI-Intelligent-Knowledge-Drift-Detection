@@ -1,0 +1,67 @@
+[
+    {
+        "Version": 1,
+        "Date": "2026-10-26 19:21:50",
+        "Old Document": "old_doc.pdf",
+        "New Document": "New_doc2.pdf",
+        "Changes": 2,
+        "Average Drift": 7.59
+    },
+    {
+        "Version": 2,
+        "Date": "2026-10-26 20:14:45",
+        "Old Document": "old_doc.pdf",
+        "New Document": "New_doc3.pdf",
+        "Changes": 3,
+        "Average Drift": 6.18
+    },
+    {
+        "Date": "2026-10-27 20:39:36",
+        "Title": "Company Leave Policy",
+        "Source": "Internal Company Policy",
+        "Old Document": "old_doc.pdf",
+        "New Document": "New_doc3.pdf",
+        "Changes": 2,
+        "Average Drift": 38.5,
+        "Health Score": 46.5,
+        "Status": "🔴 Critical"
+    },
+    {
+        "Title": "Company Leave Policy",
+        "Source": "Internal Company Policy",
+        "Old Document": "old_doc.pdf",
+        "New Document": "New_doc3.pdf",
+        "Changes": 3,
+        "Average Drift": 5.84,
+        "Health Score": 79.16,
+        "Status": "🟡 Needs Attention",
+        "Date": "2026-10-27 20:44:23"
+    },
+    {
+        "Title": "Company Leave Policy",
+        "Date": "2026-10-27 22:38:20",
+        "Changes": 3,
+        "Average Drift": 68.61,
+        "Health Score": 16.39,
+        "Status": "Changes Detected"
+    },
+    {
+        "Title": "Knowledge Document",
+        "Date": "2026-10-27 22:43:02",
+        "Changes": 3,
+        "Average Drift": 68.61,
+        "Health Score": 16.39,
+        "Status": "Changes Detected"
+    },
+    {
+        "Title": "New_doc3.pdf",
+        "Source": "New_doc3.pdf",
+        "Old Document": "old_doc.pdf",
+        "New Document": "New_doc3.pdf",
+        "Changes": 3,
+        "Average Drift": 68.52,
+        "Health Score": 31.48,
+        "Status": "Critical",
+        "Date": "2026-10-27 22:54:36"
+    }
+]

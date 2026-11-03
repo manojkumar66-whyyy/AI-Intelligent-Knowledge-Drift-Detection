@@ -1,0 +1,84 @@
+[
+    {
+        "Review ID": "d3d9465cf86142c9",
+        "Title": "Knowledge Document",
+        "Old Document": "old_doc.pdf",
+        "New Document": "New_doc3.pdf",
+        "Status": "CONFLICTING",
+        "Old Information": "Employees are allowed 12 days of casual leave per year.",
+        "New Information": "Employees are allowed 15 days of casual leave per year.",
+        "Drift Score": 5.84,
+        "Severity": "Low",
+        "Confidence": "High",
+        "Explanation": "Numeric information changed from ['12'] to ['15'].",
+        "Decision": "Accepted",
+        "Reviewer": "mmm",
+        "Reviewed At": "2026-10-27 22:06:32",
+        "Created At": "2026-10-27 22:03:29"
+    },
+    {
+        "Review ID": "a91984996b7412d0",
+        "Title": "Knowledge Document",
+        "Old Document": "old_doc.pdf",
+        "New Document": "New_doc3.pdf",
+        "Status": "REMOVED",
+        "Old Information": "Employees must apply for leave through the HR portal.",
+        "New Information": "",
+        "Drift Score": 100,
+        "Severity": "High",
+        "Confidence": "Low",
+        "Explanation": "This information is no longer present in the new document.",
+        "Decision": "Needs Review",
+        "Reviewer": "",
+        "Reviewed At": "",
+        "Created At": "2026-10-27 22:03:29"
+    },
+    {
+        "Document": "Knowledge Document",
+        "Change": 3,
+        "Decision": "Needs Review",
+        "Reviewed At": "2026-10-27 22:19:52"
+    },
+    {
+        "Change": {
+            "Type": "UPDATED",
+            "Old Information": "Company Leave Policy Employees are allowed 12 days of casual leave per year.",
+            "New Information": "Company Leave Policy Employees are allowed 15 days of casual leave per year.",
+            "Similarity": 0.9445,
+            "Drift Score": 5.55,
+            "Severity": "Low",
+            "Confidence": "High",
+            "Explanation": "The information appears to be updated, and numerical values or measurable details have changed."
+        },
+        "Decision": "Accept Change",
+        "Reviewed At": "2026-10-27 22:58:41"
+    },
+    {
+        "Change": {
+            "Type": "REMOVED",
+            "Old Information": "Employees must apply for leave through the HR portal.",
+            "New Information": "",
+            "Similarity": 0,
+            "Drift Score": 100,
+            "Severity": "High",
+            "Confidence": "High",
+            "Explanation": "This information existed in the previous document but is missing from the new version."
+        },
+        "Decision": "Accept Change",
+        "Reviewed At": "2026-10-27 22:58:44"
+    },
+    {
+        "Change": {
+            "Type": "ADDED",
+            "Old Information": "",
+            "New Information": "Employees can work from home every Friday.",
+            "Similarity": 0,
+            "Drift Score": 100,
+            "Severity": "High",
+            "Confidence": "High",
+            "Explanation": "This information appears in the new document but was not found in the previous version."
+        },
+        "Decision": "Accept Change",
+        "Reviewed At": "2026-10-27 22:58:48"
+    }
+]

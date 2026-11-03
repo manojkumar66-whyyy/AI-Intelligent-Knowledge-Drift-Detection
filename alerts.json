@@ -1,0 +1,78 @@
+[
+    {
+        "Alert ID": 1,
+        "Document": "Knowledge Document",
+        "Status": "Read",
+        "Severity": "High",
+        "Drift Score": 100,
+        "Confidence": "High",
+        "Old Information": "No matching information found.",
+        "New Information": "Employees can work from home every Friday.",
+        "Explanation": "This information appears in the new document but was not found in the previous document.",
+        "Created At": "2026-10-27 22:25:18",
+        "Read": true
+    },
+    {
+        "Alert ID": 2,
+        "Document": "Knowledge Document",
+        "Status": "Read",
+        "Severity": "High",
+        "Drift Score": 100,
+        "Confidence": "High",
+        "Old Information": "Employees must apply for leave through the HR portal.",
+        "New Information": "No matching information found.",
+        "Explanation": "This information existed in the previous document but is no longer present.",
+        "Created At": "2026-10-27 22:25:18",
+        "Read": true
+    },
+    {
+        "Alert ID": 3,
+        "Document": "Company Leave Policy",
+        "Status": "Read",
+        "Severity": "High",
+        "Drift Score": 100,
+        "Confidence": "High",
+        "Old Information": "No matching information found.",
+        "New Information": "Employees can work from home every Friday.",
+        "Explanation": "This information appears in the new document but was not found in the previous document.",
+        "Created At": "2026-10-27 22:38:20",
+        "Read": true
+    },
+    {
+        "Alert ID": 4,
+        "Document": "Company Leave Policy",
+        "Status": "Read",
+        "Severity": "High",
+        "Drift Score": 100,
+        "Confidence": "High",
+        "Old Information": "Employees must apply for leave through the HR portal.",
+        "New Information": "No matching information found.",
+        "Explanation": "This information existed in the previous document but is no longer present.",
+        "Created At": "2026-10-27 22:38:20",
+        "Read": true
+    },
+    {
+        "Type": "REMOVED",
+        "Severity": "High",
+        "Status": "Read",
+        "Drift Score": 100,
+        "Confidence": "High",
+        "Old Information": "Employees must apply for leave through the HR portal.",
+        "New Information": "",
+        "Explanation": "This information existed in the previous document but is missing from the new version.",
+        "Created At": "2026-10-27 22:54:36",
+        "Read": true
+    },
+    {
+        "Type": "ADDED",
+        "Severity": "High",
+        "Status": "Read",
+        "Drift Score": 100,
+        "Confidence": "High",
+        "Old Information": "",
+        "New Information": "Employees can work from home every Friday.",
+        "Explanation": "This information appears in the new document but was not found in the previous version.",
+        "Created At": "2026-10-27 22:54:36",
+        "Read": true
+    }
+]
